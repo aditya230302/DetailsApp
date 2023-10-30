@@ -31,7 +31,8 @@
             android:layout_width="50dp"
             android:layout_height="60dp"
             android:src="@drawable/icon3"
-            android:background="#191919"/>
+            android:background="#191919"
+            app:rippleColor="@color/g_blue" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 
@@ -56,7 +57,7 @@
         android:src="@drawable/add"
         android:visibility="visible"
         app:maxImageSize="40dp"
-        app:rippleColor="@color/teal_200" />
+        app:rippleColor="@color/g_blue" />
 
 
 

@@ -103,6 +103,7 @@
                 android:backgroundTint="@color/g_blue"
                 android:text="ADD"
                 app:cornerRadius="10dp"
+                app:rippleColor="@color/g_blue100"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/ageID" />
 
@@ -115,6 +116,7 @@
                 android:backgroundTint="@color/g_blue"
                 android:text="CANCEL"
                 app:cornerRadius="10dp"
+                app:rippleColor="@color/g_blue100"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/addBtn" />
 
