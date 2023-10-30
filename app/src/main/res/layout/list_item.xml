@@ -17,7 +17,9 @@
         app:cardBackgroundColor="@color/g_card_background"
         app:cardCornerRadius="20dp"
         app:cardElevation="20dp"
-        app:cardMaxElevation="20dp">
+        app:cardMaxElevation="20dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:rippleColor="@color/black">
 
         <LinearLayout
             android:layout_width="match_parent"
