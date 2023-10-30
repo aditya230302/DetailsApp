@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191919"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#191919">
+        <TextView
+            android:id="@+id/idTVHeading"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:text="Details APP"
+            android:textColor="@color/g_line"
+            android:textSize="40dp"
+            android:paddingStart="70dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            style="@style/editText"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:background="#191919"/>
+        <ImageView
+            android:id="@+id/help"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon3"
+            android:background="#191919"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="0dp"
+        android:divider="@color/g_orange_yellow" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/g_card_background"
+        android:src="@drawable/add"
+        android:visibility="visible"
+        app:maxImageSize="40dp"
+        app:rippleColor="@color/teal_200" />
+
+
+
+</RelativeLayout>
