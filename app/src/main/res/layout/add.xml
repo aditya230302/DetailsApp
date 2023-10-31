@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/white"
+    android:background="@color/g_black"
     android:padding="10dp"
     tools:context=".add"
     >
@@ -17,7 +17,7 @@
         android:layout_height="86dp"
         android:layout_marginTop="5dp"
         android:layout_gravity="center"
-        android:src="@drawable/adddetails" />
+        android:src="@drawable/adddetails1" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -40,6 +40,7 @@
                 android:layout_marginTop="50dp"
                 android:ems="10"
                 android:hint="ID"
+                android:background="@drawable/edittextbackground"
                 android:inputType="textPersonName"
                 android:minHeight="48dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -71,6 +72,8 @@
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="Description"
+
+                android:background="@drawable/edittextbackground"
                 android:minHeight="48dp"
                 android:scrollbarAlwaysDrawVerticalTrack="true"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -87,6 +90,8 @@
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="Date"
+
+                android:background="@drawable/edittextbackground"
                 android:minHeight="48dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.502"
@@ -100,9 +105,11 @@
                 android:layout_height="55dp"
                 android:layout_marginStart="60dp"
                 android:layout_marginTop="24dp"
-                android:backgroundTint="@color/g_blue"
+                android:backgroundTint="@color/white"
                 android:text="ADD"
+                android:textColor="@color/black"
                 app:cornerRadius="10dp"
+                android:textSize="15dp"
                 app:rippleColor="@color/g_blue100"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/ageID" />
@@ -113,9 +120,11 @@
                 android:layout_height="55dp"
                 android:layout_marginStart="60dp"
                 android:layout_marginTop="24dp"
-                android:backgroundTint="@color/g_blue"
+                android:backgroundTint="@color/white"
                 android:text="CANCEL"
                 app:cornerRadius="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"
                 app:rippleColor="@color/g_blue100"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/addBtn" />
